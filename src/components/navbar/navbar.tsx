@@ -1,9 +1,15 @@
 import React from 'react'
 import './navbar.css'
-function navbar() {
+import {BiLogoMediumOld} from 'react-icons/bi'
+
+
+function Navbar() {
   return (
-    <div>navbar</div>
+    <div className='logoDiv'>
+      <BiLogoMediumOld className="icon" />
+      <span></span>
+      </div>
   )
 }
 
-export default navbar
+export default Navbar
